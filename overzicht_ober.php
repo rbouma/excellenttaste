@@ -54,35 +54,33 @@ $bestellingen = $db->objectBuilder()->rawQuery("SELECT bestelling.*, menuitem.me
     <div class="content">
         <div class="orders">
             <ul>
-            <?php if (isset($bestellingen)) : ?>
-                <?php foreach ($bestellingen as $bestelling) :?>
-                    <?php
-                    $dt = new DateTime($bestelling->datum_tijd);
-                    $today_dt = new DateTime();
-                    $date = $dt->format('m-d-Y');
-                    $today_date = $today_dt->format('m-d-Y');
-                    $time = $dt->format('H:i');
-                    ?>
-                    <?php if ($today_date == $date) : ?>
-                        <?php if ((int) $bestelling->gerechtcode === 1 || (int) $bestelling->gerechtcode === 2 || (int) $bestelling->gerechtcode === 3 || (int) $bestelling->gerechtcode === 5 ) : ?>
-                            <?php if((int) $bestelling->klaar === 0): ?>
-                            <li>
-                                <div class="bestellingen">
-                                    <div><?= $date. ' '. $time . ' - ' . $bestelling->menuitem . ' - Tafelnummer: ' . $bestelling->tafel ?></div>
-                                    <div>
-                                        <form method="post">
-                                            <input type="hidden" name="bestellingscode" value="<?= $bestelling->bestellingscode ?>">
-                                            <input type="submit" name="submit" value="Serveer">
-                                        </form>
+                <?php if (isset($bestellingen)) : ?>
+                    <?php foreach ($bestellingen as $bestelling) :?>
+                        <?php
+                        $dt = new DateTime($bestelling->datum_tijd);
+                        $today_dt = new DateTime();
+                        $date = $dt->format('m-d-Y');
+                        $today_date = $today_dt->format('m-d-Y');
+                        $time = $dt->format('H:i');
+                        ?>
+                        <?php if ($today_date == $date) : ?>
+                            <?php if((int) $bestelling->klaar === 1): ?>
+                                <li>
+                                    <div class="bestellingen">
+                                        <div><?= $date. ' '. $time . ' - ' . $bestelling->menuitem . ' - Tafelnummer: ' . $bestelling->tafel ?></div>
+                                        <div>
+                                            <form method="post">
+                                                <input type="hidden" name="bestellingscode" value="<?= $bestelling->bestellingscode ?>">
+                                                <input type="submit" name="submit" value="Serveer">
+                                            </form>
+                                        </div>
                                     </div>
-                                </div>
-                                <hr>
-                            </li>
+                                    <hr>
+                                </li>
                             <?php endif; ?>
                         <?php endif; ?>
-                    <?php endif; ?>
-                <?php endforeach; ?>
-            <?php endif; ?>
+                    <?php endforeach; ?>
+                <?php endif; ?>
             </ul>
         </div>
     </div>

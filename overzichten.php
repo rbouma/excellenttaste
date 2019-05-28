@@ -26,6 +26,9 @@
             <li><a href="overzicht_barman.php">
                     <button>Overzicht Barman</button>
                 </a></li>
+            <li><a href="overzicht_ober.php">
+                    <button>Overzicht Ober</button>
+                </a></li>
         </ul>
     </div>
 

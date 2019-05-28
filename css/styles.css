@@ -1,0 +1,164 @@
+body {
+    max-width: 1600px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    border: 2px solid black;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.container li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+/*MENU*/
+.menu {
+    border-right: 1px solid black;
+    background: #e7e7e7;
+    min-height: 500px;
+    min-width: 200px;
+    max-width: 30%;
+    width: 20%;
+}
+
+.menu button {
+    height: 50px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+/*SUBMENU*/
+
+.submenu {
+    background: #e7e7e7;
+    border-right: 1px solid black;
+    min-height: 500px;
+    min-width: 200px;
+    max-width: 30%;
+    width: 20%;
+}
+
+.submenu button {
+    height: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/*CONTENT*/
+.content {
+    padding: 0 0 0 20px;
+    background: #e7e7e7;
+    min-height: 500px;
+    flex-grow: 1;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+/* BESTELLING OPNEMEN */
+
+.opnemen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    width: 100%;
+    height: 500px;
+    overflow:hidden;
+    overflow-y: scroll;
+}
+
+.opnemen button {
+    height: 20px;
+    width: 200px;
+}
+
+.tafelmenu {
+    border-left: 1px solid black;
+    background: #e7e7e7;
+    min-height: 500px;
+    max-height: 500px;
+    width: 15%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.tafelnummers button {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/*BON sytles*/
+.orders {
+    margin: 50px;
+}
+
+@media print {
+    .title {
+        display: none;
+    }
+    .menu {
+        display:none;
+    }
+    .submenu {
+        display:none;
+    }
+    .tafelmenu {
+        display:none;
+    }
+
+    .content {
+        border:none;
+        min-height: 500px;
+        flex-grow: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    .betalingswijze {
+        display:none;
+        opacity: 0;
+    }
+}
+
+/*BESTELLINGEN*/
+.bestellingen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*RESERVERINGEN*/
+.reserveringen {
+margin: 15px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

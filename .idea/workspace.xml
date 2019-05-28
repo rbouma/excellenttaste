@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ed48276-49d3-4904-8cd9-218c8368cb95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/overzicht_ober.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overzicht_barman.php" beforeDir="false" afterPath="$PROJECT_DIR$/overzicht_barman.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overzicht_kok.php" beforeDir="false" afterPath="$PROJECT_DIR$/overzicht_kok.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overzichten.php" beforeDir="false" afterPath="$PROJECT_DIR$/overzichten.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/menu.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,55 +27,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.php">
+        <entry file="file://$PROJECT_DIR$/overzicht_ober.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/overzicht_kok.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/overzicht_barman.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gegevens_overzicht.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+            <state relative-caret-position="292">
+              <caret line="64" column="26" lean-forward="true" selection-end-line="89" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/overzicht_ober.php">
+        <entry file="file://$PROJECT_DIR$/overzicht_omzet.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+            <state relative-caret-position="319">
+              <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/overzichten.php">
+        <entry file="file://$PROJECT_DIR$/inc/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="693">
+              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -140,7 +108,6 @@
         <option value="$PROJECT_DIR$/menu_kaart.php" />
         <option value="$PROJECT_DIR$/reservering_vandaag.php" />
         <option value="$PROJECT_DIR$/reservering_verander.php" />
-        <option value="$PROJECT_DIR$/inc/menu.php" />
         <option value="$PROJECT_DIR$/reservering_overzicht.php" />
         <option value="$PROJECT_DIR$/reservering_nieuw.php" />
         <option value="$PROJECT_DIR$/css/styles.css" />
@@ -150,6 +117,8 @@
         <option value="$PROJECT_DIR$/overzicht_barman.php" />
         <option value="$PROJECT_DIR$/overzicht_kok.php" />
         <option value="$PROJECT_DIR$/overzicht_ober.php" />
+        <option value="$PROJECT_DIR$/inc/menu.php" />
+        <option value="$PROJECT_DIR$/overzicht_omzet.php" />
       </list>
     </option>
   </component>
@@ -157,7 +126,7 @@
     <option name="x" value="-1680" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1027" />
+    <option name="height" value="963" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -176,6 +145,11 @@
               <item name="taste" type="b2602c69:ProjectViewProjectNode" />
               <item name="taste" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taste" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -226,15 +200,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557998390457</updated>
-      <workItem from="1557998391801" duration="53206000" />
+      <workItem from="1557998391801" duration="53896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53206000" />
+    <option name="totallyTimeSpent" value="53896000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1680" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="-1680" y="23" width="1680" height="963" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -345,13 +319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-920">
           <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -481,8 +448,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/overzicht_ober.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        <state relative-caret-position="292">
+          <caret line="64" column="26" lean-forward="true" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overzicht_omzet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
         </state>
       </provider>
     </entry>

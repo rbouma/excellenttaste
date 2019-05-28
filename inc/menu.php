@@ -29,4 +29,9 @@
              <button>Menu Kaart</button>
          </a>
      </li>
+     <li>
+         <a href="overzicht_omzet.php">
+             <button>Overzicht week omzet</button>
+         </a>
+     </li>
  </ul>
